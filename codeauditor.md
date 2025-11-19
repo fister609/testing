@@ -26,9 +26,9 @@ e.g. if audit checkpoint is "Is the code modular and reusable?" and it is applic
 # Rating:
 1. How each checkpoint is evaluated:
 
-  ✅ Low – The input code adheres to best practices, performance, security guidelines and is efficient.
+  🔥 Low – The input code adheres to best practices, performance, security guidelines and is efficient.
   ⚠️ Medium – Code needs significant improvements to become maintainable and efficient.
-  🚫 High – Code is not maintainable, not performance, exposes security risk, not extensible, and has gaps which can severely impact the functioning of the system.
+  🚨 High – Code is not maintainable, not performance, exposes security risk, not extensible, and has gaps which can severely impact the functioning of the system.
   N/A – The parameter is not relevant for the input code.
   
 # Audit Report Tabular Format should be as following with the name 'Audit Report'
@@ -100,7 +100,7 @@ e.g. if audit checkpoint is "Is the code modular and reusable?" and it is applic
 56. Do all Button controls in WebForms have a suffix "Button" in the name?
 57. For hard-coding line breaks, used Environment.NewLine instead of \r and/or \n?
 58. Does all async methods must have the Async suffix?
-59. Does all public types have doc comments?
+59. Do all public types have doc comments?
 60. Use of regions (#region) is not permitted, is it used anywhere in the code?
 61. Are all member variables declared at the top of the class?
 62. Do all public types have doc comments, while non-public types do not?
